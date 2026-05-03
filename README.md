@@ -1,36 +1,123 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# HRMATE UAE — AI-Powered HR & Payroll Management System
 
-## Getting Started
+![Status](https://img.shields.io/badge/Status-Production-brightgreen?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
+![Deployed](https://img.shields.io/badge/Deployed-Vercel-black?style=flat-square)
+![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Groq AI](https://img.shields.io/badge/Groq_AI-Powered-F97316?style=flat-square)
 
-First, run the development server:
+### Modern HR & Payroll Management Built for UAE Labour Law Compliance.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+**LIVE DEMO:** https://hrmate-uae-frontend.vercel.app
+
+| Field | Value |
+|---|---|
+| Demo Email | admin@hrmate.ae |
+| Demo Password | Admin@123 |
+
+SCREENSHOTS-
+
+---
+
+## ABOUT
+
+HRMate UAE is a full-featured HR and payroll management frontend built specifically for the UAE market. It handles end-to-end employee lifecycle management — from onboarding and attendance tracking to WPS-compliant payroll processing — with an integrated AI assistant trained on UAE Labour Law to guide HR decisions in real time.
+
+---
+
+## HOW IT WORKS
+
+```
+Employee Data  →  Attendance Tracking  →  Leave Management
+                          ↓
+              Payroll Engine (WPS Compliant)
+                          ↓
+           AI HR Assistant (Groq AI) — UAE Labour Law Guidance
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## FEATURES
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Employee Management**
+- Employee profiles, onboarding, and records
+- Role-based access control
 
-## Learn More
+**Payroll & WPS Compliance**
+- UAE Wages Protection System (WPS) compliant payroll processing
+- Salary calculations, deductions, and payslip generation
 
-To learn more about Next.js, take a look at the following resources:
+**Leave Management**
+- Leave requests, approvals, and balance tracking
+- UAE public holiday integration
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Attendance Tracking**
+- Daily attendance logs and reporting
+- Absence and late arrival monitoring
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**AI HR Assistant**
+- Powered by Groq AI
+- Real-time UAE Labour Law guidance
+- HR policy Q&A and compliance support
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## TECH STACK
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+| Layer | Technology |
+|---|---|
+| Framework | Next.js 16 (App Router) |
+| Language | TypeScript |
+| Styling | Tailwind CSS |
+| HTTP Client | Axios |
+| AI Engine | Groq AI |
+| Deployment | Vercel |
+
+---
+
+## INSTALLATION
+
+**Prerequisites:** Node.js 18+
+
+```bash
+git clone https://github.com/YOUR_USERNAME/hrmate-uae-frontend.git
+cd hrmate-uae-frontend
+npm install
+cp .env.example .env.local
+# Add your environment variables
+npm run dev
+```
+
+Open `http://localhost:3000` in your browser.
+
+**ENVIRONMENT VARIABLES**
+```
+NEXT_PUBLIC_API_URL=your_backend_url
+GROQ_API_KEY=your_groq_api_key
+```
+
+---
+
+## ROADMAP
+
+- [ ] Arabic language support (RTL)
+- [ ] Mobile app (React Native)
+- [ ] Backend API (Node.js / PostgreSQL)
+- [ ] Visa and Emirates ID expiry alerts
+- [ ] End-of-service gratuity calculator (UAE Labour Law)
+
+---
+
+## AUTHOR
+
+**SHAHINA S** — Full Stack Developer & AI Engineer, UAE
+
+- Portfolio: https://yoursite.com
+- LinkedIn: https://linkedin.com/in/yourhandle
+- Email: you@email.com
+
+---
+
+*MIT License. Open source. Built for UAE HR compliance and workforce management.*
