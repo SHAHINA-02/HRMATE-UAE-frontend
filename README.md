@@ -17,7 +17,7 @@
 | Demo Email | admin@hrmate.ae |
 | Demo Password | Admin@123 |
 
-SCREENSHOTS-
+SCREENSHOTS-https://github.com/SHAHINA-02/HRMATE-UAE-frontend/blob/00af2c26558946609f8aee299004fd2c248a0852/HRPAYROLL-SC/Screenshot%202026-05-03%20150304.png
 
 ---
 
